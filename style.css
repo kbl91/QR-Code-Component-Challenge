@@ -1,0 +1,60 @@
+:root {
+--White: hsl(0, 0%, 100%)
+--Light-gray: hsl(212, 45%, 89%)
+--Grayish-blue: hsl(220, 15%, 55%)
+--Dark-blue: hsl(218, 44%, 22%)
+}
+
+
+body {
+	background-color: rgb(214, 226, 240);
+	opacity: 100%;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.card {
+	background-color: rgb(255,255,255);
+	border-radius: 20px;
+	max-width: 272px;
+	padding: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+.img {
+max-width: 100%;
+height:auto;
+display:block;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+width: auto;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 13px;
+}
+
+.attribution {
+	font-size: 10px;
+	text-align: center;
+	color: rgb(214,219,240);
+}
+
+p {
+color: black;
+line-height: 0;
+margin-top: 0;
+margin-bottom: 12px;
+text-align: center;
+}
